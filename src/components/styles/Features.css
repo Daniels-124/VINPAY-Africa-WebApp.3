@@ -1,0 +1,36 @@
+.why-choose {
+  padding: 40px 20px;
+  background-color: #fff5e5; /* Soft orange tint */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ff6600; /* Your brand orange */
+}
+
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefit {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .benefits-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .benefit {
+    flex: 1;
+    margin: 0 10px;
+  }
+}

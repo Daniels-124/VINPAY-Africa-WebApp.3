@@ -1,0 +1,42 @@
+.how-it-works {
+  background-color: #FBCEB1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.step {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fffdf8;
+}
+
+.step-number {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .step {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
